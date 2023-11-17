@@ -1,0 +1,1 @@
+{"allowUnsafeCode":false,"autoReferenced":false,"defineConstraints":["UNITY_EDITOR || DENA_AUTOPILOT_ENABLE"],"excludePlatforms":[],"includePlatforms":[],"name":"Anjin","noEngineReferences":false,"optionalUnityReferences":[],"overrideReferences":false,"precompiledReferences":[],"references":["DeNA.Anjin","UniTask"]}
