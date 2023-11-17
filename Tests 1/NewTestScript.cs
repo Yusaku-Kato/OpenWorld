@@ -27,7 +27,8 @@ public class NewTestScript
     [UnityTest]
     public IEnumerator NewTestScriptWithEnumeratorPasses()
     {
-        GameObject dogPolyart = (GameObject)Resources.Load("DogPolyart");
+        //GameObject dogPolyart = (GameObject)Resources.Load("DogPolyart");
+        GameObject dogPolyart = GameObject.Find("DogPolyart");
         Debug.Log(dogPolyart);
         Assert.IsNotNull(dogPolyart);
 
